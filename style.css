@@ -106,8 +106,10 @@ a {
 .sect4 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  align-items: stretch;
+  height: 1900px;
   background-color: aquamarine;
+
 }
 
 .form {
@@ -117,13 +119,15 @@ a {
   margin: 1rem;
   display: flex;
   flex-direction: column;
-  
 }
 
 .videos__contenido {
+  width: 60%;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
+  margin: 1rem;
+  
 }
 
 #form {
@@ -139,12 +143,18 @@ a {
 }
 
 .videos__prof {
-  width: 400px;
+  width: 600px;
+  border-radius: 1.5%;
+}
+
+.videos__prof:hover {
+  transform: scale(1.1);
 }
 
 .videos__text {
   font-size: 2rem;
   font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;
-  margin: 1rem;
+  margin: 4rem;
+  font-weight: bold;
 }
+
