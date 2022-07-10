@@ -323,14 +323,33 @@ a {
 
 .sect3 {
   flex-direction: column;
-  width: 400px;
+  width: 320px;
 }
 
 .testimony {
-  width: 300px;
+  width: 310px;
   height: 320px;
 }
 
 .testimony__text {
-  font-size: 10px;
+  font-size: 15px;
+}
+
+.sect4 {
+  flex-direction: column;
+  width: 340px;
+  margin: 0;
+}
+
+.videos__contenido {
+  width: 340px;
+}
+
+.videos__text {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.videos__prof {
+  width: 340px;
 }
