@@ -82,8 +82,6 @@ a {
     width: 500px;
     height: 500px;
     border: solid 1px black;
-    
-    
   }
 
 .alumn {
@@ -305,7 +303,51 @@ a {
 }
 
 @media screen and (max-width: 1023px) {
+  .initialtext {
+    font-size: 2rem;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .img__bienvenida {
+    width: 250px;
+  }
+
+.sect3 {
+  flex-direction: column;
+  margin-top: 2rem;
+  border: none;
   
+}
+
+.testimony {
+  width: 100%;
+  height: 340px;
+}
+
+.testimony__text {
+  font-size: 15px;
+}
+
+.sect4 {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+.videos__contenido {
+  width: 100%;
+}
+
+.videos__text {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.videos__prof {
+  width: 100%;
+}
+
 }
 /*Hasta 320px como referencia aprox. */
 @media screen and (max-width: 600px) {
@@ -327,7 +369,7 @@ a {
 }
 
 .testimony {
-  
+  width: 100%;
   height: 340px;
 }
 
@@ -337,12 +379,12 @@ a {
 
 .sect4 {
   flex-direction: column;
-  
+  width: 100vh;
   margin: 0;
 }
 
 .videos__contenido {
-  
+  width: 100vh;
 }
 
 .videos__text {
@@ -351,7 +393,7 @@ a {
 }
 
 .videos__prof {
-  
+  width: 100vh;
 }
 
 }
